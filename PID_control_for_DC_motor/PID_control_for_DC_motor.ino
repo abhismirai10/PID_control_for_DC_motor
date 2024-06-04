@@ -25,12 +25,13 @@ void setup() {
 
 void loop() {
   // set the target position
-  int target = 1800;
+  int target_degree = 90;
+  int target = int(1.124 * target_degree);
 
   // PID constants
   float kp = 1;
-  float kd = 0.025;
-  float ki = 0;
+  float kd = 0.055;
+  float ki = 0.001;
 
   // time difference
   unsigned long currT = micros(); // Change to unsigned long
