@@ -26,7 +26,7 @@ void setup() {
 void loop() {
   // define the target positions
   int target_degrees[] = {90,  0,  -90,   0, -270, 0,   270,   0, 90, -90};
-  int steps[] =          {100, 100, 100, 100, 100, 100, 100, 100, 100, 100 }; // number of steps to reach each target position
+  int steps[] =          {100, 100, 100, 100, 100, 100, 100, 100, 100, 100 };
 
   // PID constants
   float kp = 1;

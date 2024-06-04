@@ -8,7 +8,7 @@
 
 int pos = 0;
 
-unsigned long prevT = 0; // Change to unsigned long to handle micros() overflow
+unsigned long prevT = 0; 
 float eprev = 0;
 float eintegral = 0;
 
